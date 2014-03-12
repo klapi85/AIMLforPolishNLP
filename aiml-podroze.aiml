@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Autor:  W. Kuchta -->
+<!-- Date:   2014-03-12 -->
+<!--
+	This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details. 
+	-->
+<aiml>
+
+<!-- SZUKANIE CELU PODROZY -->
+<category><pattern>JADE DO *</pattern>
+        <template>Rozumiem. Jedziesz do <star/></template>
+</category>
+
+<category><pattern>POJADE DO *</pattern><template><srai>JADE DO <star/></srai></template></category>
+<category><pattern>WYBIERAM SIE DO *</pattern><template><srai>JADE DO <star/></srai></template></category>
+
+
+<!--  PRZEKIEROWANIA BEZSTRATNE  -->
+
+<category><pattern>BYCMOZE *</pattern><template><srai><star/></srai></template></category>
+<category><pattern>Z PEWNOSCIA *</pattern><template><srai><star/></srai></template></category>
+<category><pattern>NA PEWNO *</pattern><template><srai><star/></srai></template></category>
+
+<category><pattern>POWIEM CI ZE *</pattern><template><srai><star/></srai></template></category>    
+<category><pattern>UWAGA WSZYSCY *</pattern><template><srai><star/></srai></template></category>          
+
+<!--  TESTY  -->
+
+<category><pattern>TEST</pattern>
+        <template>TEST OK</template>
+</category>
+
+<category><pattern>TEST *</pattern>
+        <template>TEST <star/></template>
+</category>
+
+<!--  BRAK DOPASOWANIA  -->
+
+<category><pattern>*</pattern> 
+        <template><random>
+                <li>Nie rozumiem</li>
+                <li>Cel nie znaleziony.</li>
+        </random></template>
+</category>
+
+</aiml>
+
