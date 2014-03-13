@@ -22,34 +22,14 @@
 <category><pattern>POJADE DO *</pattern><template><srai>JADE DO <star/></srai></template></category>
 <category><pattern>WYBIERAM SIE DO *</pattern><template><srai>JADE DO <star/></srai></template></category>
 
+<!-- SZUKANIE ZRODLA PODROZY -->
 
-<!--  PRZEKIEROWANIA BEZSTRATNE  -->
-
-<category><pattern>BYCMOZE *</pattern><template><srai><star/></srai></template></category>
-<category><pattern>Z PEWNOSCIA *</pattern><template><srai><star/></srai></template></category>
-<category><pattern>NA PEWNO *</pattern><template><srai><star/></srai></template></category>
-
-<category><pattern>POWIEM CI ZE *</pattern><template><srai><star/></srai></template></category>    
-<category><pattern>UWAGA WSZYSCY *</pattern><template><srai><star/></srai></template></category>          
-
-<!--  TESTY  -->
-
-<category><pattern>TEST</pattern>
-        <template>TEST OK</template>
+<category><pattern>JADE Z *</pattern>
+        <template>Rozumiem. Jedziesz z <star/></template>
 </category>
 
-<category><pattern>TEST *</pattern>
-        <template>TEST <star/></template>
-</category>
+<category><pattern>POJADE Z *</pattern><template><srai>JADE Z <star/></srai></template></category>
 
-<!--  BRAK DOPASOWANIA  -->
-
-<category><pattern>*</pattern> 
-        <template><random>
-                <li>Nie rozumiem</li>
-                <li>Cel nie znaleziony.</li>
-        </random></template>
-</category>
 
 </aiml>
 
