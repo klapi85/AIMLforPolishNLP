@@ -29,5 +29,16 @@
 <category><pattern>CHCIALABYM WIEDZIEC *</pattern><template><star/></template></category>
 <category><pattern>CHCIALBYM WIEDZIEC *</pattern><template><star/></template></category>
 
+<category><pattern>BYC MOZE *</pattern><template><srai><star/></srai></template></category>
+<category><pattern>BYCMOZE *</pattern><template><srai><star/></srai></template></category>
+<category><pattern>Z PEWNOSCIA *</pattern><template><srai><star/></srai></template></category>
+<category><pattern>Z CALA PEWNOSCIA *</pattern><template><srai><star/></srai></template></category>
+<category><pattern>NA PEWNO *</pattern><template><srai><star/></srai></template></category>
+<category><pattern>ZAPEWNE *</pattern><template><srai><star/></srai></template></category>
+<category><pattern>CHYBA *</pattern><template><srai><star/></srai></template></category>
+
+<category><pattern>POWIEM CI ZE *</pattern><template><srai><star/></srai></template></category>
+<category><pattern>UWAGA WSZYSCY *</pattern><template><srai><star/></srai></template></category>
+
 </aiml>
 
