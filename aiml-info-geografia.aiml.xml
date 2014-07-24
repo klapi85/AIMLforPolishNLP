@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Author  : Wojciech Kuchta <wojciech.kuchta@gmail.com> -->
+<!-- Created : 2014-07-24 -->
+<!--
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+-->
+<aiml>
+<!-- Stolice -->
+<category>
+    <pattern>CO JEST STOLICA *</pattern>
+    <template>Nie wiem co jest stolicą <star/>. Dopiero uczę się stolic.</template>
+</category>
+<category><pattern>CO JEST STOLICĄ *</pattern>
+    <template><srai>CO JEST STOLICA <star/></srai></template></category>
+
+<!-- Glowy panstw  -->
+<category>
+    <pattern>KTO JEST PREZYDENTEM *</pattern>
+    <template>Nie wiem, nie znam takiego prezydenta.</template>
+</category>
+<category>
+    <pattern>KTO JEST PREMIEREM *</pattern>
+    <template>Nie wiem, nie znam takiego premiera.</template>
+</category>
+<category>
+    <pattern>KTO JEST KROLEM *</pattern>
+    <template>Nie wiem, nie znam takiego króla.</template>
+</category>
+<category><pattern>KTO JEST KRÓLEM *</pattern>
+    <template><srai>KTO JEST KROLEM <star/></srai></template></category>
+
+</aiml>
