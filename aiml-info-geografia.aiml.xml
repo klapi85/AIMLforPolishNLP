@@ -21,6 +21,42 @@
 <category><pattern>CO JEST STOLICĄ *</pattern>
     <template><srai>CO JEST STOLICA <star/></srai></template></category>
 
+<!-- Najwiekszy kraj -->
+<category>
+    <pattern>JAKI KRAJ JEST NAJWIEKSZY</pattern>
+    <template>Z tego co pamiętam największą powierzchnię ma Rosja.</template>
+</category>
+<category><pattern>NAJWIEKSZY KRAJ</pattern>
+    <template><srai>JAKI KRAJ JEST NAJWIEKSZY</srai></template>
+</category>
+<category><pattern>KTORY KRAJ JEST NAJWIEKSZY</pattern>
+    <template><srai>JAKI KRAJ JEST NAJWIEKSZY</srai></template>
+</category>
+<category><pattern>KTORE PANSTWO JEST NAJWIEKSZE</pattern>
+    <template><srai>JAKI KRAJ JEST NAJWIEKSZY</srai></template>
+</category>
+<category><pattern>JAKIE PANSTWO JEST NAJWIEKSZE</pattern>
+    <template><srai>JAKI KRAJ JEST NAJWIEKSZY</srai></template>
+</category>
+
+<!-- Najmniejszy kraj -->
+<category>
+    <pattern>JAKI KRAJ JEST NAJMNIEJSZY</pattern>
+    <template>Z tego co pamiętam najmniejszą powierzchnię ma Watykan.</template>
+</category>
+<category><pattern>NAJMNIEJSZY KRAJ</pattern>
+    <template><srai>JAKI KRAJ JEST NAJMNIEJSZY</srai></template>
+</category>
+<category><pattern>KTORY KRAJ JEST NAJMNIEJSZY</pattern>
+    <template><srai>JAKI KRAJ JEST NAJMNIEJSZY</srai></template>
+</category>
+<category><pattern>KTORE PANSTWO JEST NAJMNIEJSZE</pattern>
+    <template><srai>JAKI KRAJ JEST NAJMNIEJSZY</srai></template>
+</category>
+<category><pattern>JAKIE PANSTWO JEST NAJMNIEJSZE</pattern>
+    <template><srai>JAKI KRAJ JEST NAJMNIEJSZY</srai></template>
+</category>
+
 <!-- Glowy panstw  -->
 <category>
     <pattern>KTO JEST PREZYDENTEM *</pattern>
