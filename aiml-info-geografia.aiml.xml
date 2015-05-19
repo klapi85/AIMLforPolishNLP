@@ -57,6 +57,21 @@
     <template><srai>JAKI KRAJ JEST NAJMNIEJSZY</srai></template>
 </category>
 
+<!-- Najdluzsza rzeka -->
+<category>
+    <pattern>NAJDLUZSZA RZEKA SWIATA</pattern>
+    <template>Słyszałem, że najdłuższą rzaką świata jest Amazonka.</template>
+</category>
+<category><pattern>JAKA RZEKA JEST NAJDLUZSZA</pattern>
+    <template><srai>NAJDLUZSZA RZEKA SWIATA</srai></template>
+</category>
+<category><pattern>KTORA RZEKA JEST NAJDLUZSZA</pattern>
+    <template><srai>NAJDLUZSZA RZEKA SWIATA</srai></template>
+</category>
+<category><pattern>NAJDLUZSZA RZEKA</pattern>
+    <template><srai>NAJDLUZSZA RZEKA SWIATA</srai></template>
+</category>
+
 <!-- Glowy panstw  -->
 <category>
     <pattern>KTO JEST PREZYDENTEM *</pattern>
