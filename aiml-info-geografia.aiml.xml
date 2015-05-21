@@ -58,10 +58,25 @@
 </category>
 
 <!-- Najdluzsza rzeka -->
+<category><pattern>JAKA RZEKA JEST NAJDLUZSZA *</pattern>
+    <template><srai>NAJDLUZSZA RZEKA <star/></srai></template>
+</category>
+<category><pattern>KTORA RZEKA JEST NAJDLUZSZA *</pattern>
+    <template><srai>NAJDLUZSZA RZEKA <star/></srai></template>
+</category>
+<category><pattern>JAK SIE NAZYWA NAJDLUZSZA RZEKA *</pattern>
+    <template><srai>NAJDLUZSZA RZEKA <star/></srai></template>
+</category>
+
+<!-- Najdluzsza rzeka swiata-->
 <category>
     <pattern>NAJDLUZSZA RZEKA SWIATA</pattern>
     <template>Słyszałem, że najdłuższą rzeką świata jest Amazonka.</template>
 </category>
+<category><pattern>NAJDLUZSZA RZEKA NA SWIECIE</pattern>
+    <template><srai>NAJDLUZSZA RZEKA SWIATA</srai></template>
+</category>
+
 <category><pattern>JAKA RZEKA JEST NAJDLUZSZA</pattern>
     <template><srai>NAJDLUZSZA RZEKA SWIATA</srai></template>
 </category>
@@ -74,14 +89,23 @@
 
 <!-- Najdluzsza rzeka Polski-->
 <category>
+    <pattern>NAJDLUZSZA RZEKA EUROPY</pattern>
+    <template>Najdłuższą rzeką w Europie jest Wołga.</template>
+</category>
+<category><pattern>JAKA EUROPEJSKA RZEKA JEST NAJDLUZSZA</pattern>
+    <template><srai>NAJDLUZSZA RZEKA EUROPY</srai></template>
+</category>
+<category><pattern>KTORA EUROPEJSKA RZEKA JEST NAJDLUZSZA</pattern>
+    <template><srai>NAJDLUZSZA RZEKA EUROPY</srai></template>
+</category>
+<category><pattern>NAJDLUZSZA RZEKA W EUROPIE</pattern>
+    <template><srai>NAJDLUZSZA RZEKA EUROPY</srai></template>
+</category>
+
+<!-- Najdluzsza rzeka Polski-->
+<category>
     <pattern>NAJDLUZSZA RZEKA POLSKI</pattern>
     <template>Najdłuższą rzeką w Polsce jest Wisła.</template>
-</category>
-<category><pattern>JAKA RZEKA JEST NAJDLUZSZA W POLSCE</pattern>
-    <template><srai>NAJDLUZSZA RZEKA POLSKI</srai></template>
-</category>
-<category><pattern>KTORA RZEKA JEST NAJDLUZSZA W POLSCE</pattern>
-    <template><srai>NAJDLUZSZA RZEKA POLSKI</srai></template>
 </category>
 <category><pattern>JAKA POLSKA RZEKA JEST NAJDLUZSZA</pattern>
     <template><srai>NAJDLUZSZA RZEKA POLSKI</srai></template>
@@ -90,9 +114,6 @@
     <template><srai>NAJDLUZSZA RZEKA POLSKI</srai></template>
 </category>
 <category><pattern>NAJDLUZSZA RZEKA W POLSCE</pattern>
-    <template><srai>NAJDLUZSZA RZEKA POLSKI</srai></template>
-</category>
-<category><pattern>* NAJDLUZSZA RZEKA W POLSCE</pattern>
     <template><srai>NAJDLUZSZA RZEKA POLSKI</srai></template>
 </category>
 
