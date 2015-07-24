@@ -57,9 +57,35 @@
 <category><pattern>CZY PRAGNIESZ *</pattern><template><srai>CZY LUBISZ <star/></srai></template></category>
 <category><pattern>CZY KOCHASZ *</pattern><template><srai>CZY LUBISZ <star/></srai></template></category>
 
-<!-- CZY CHCESZ - ODPOWIEDZI -->
+<!-- CZY LUBISZ - ODPOWIEDZI -->
 <category><pattern>CZY LUBISZ JESC</pattern>
         <template>Raczej, nie lubię jedzenia.</template>
+</category>
+<category><pattern>CZY LUBISZ GRAC</pattern>
+        <template>Uwielbiam wszystkie gry, zwłaszcza elektroniczne.</template>
+</category>
+<category><pattern>CZY LUBISZ GRAC *</pattern><template><srai>CZY LUBISZ GRAC</srai></template></category>
+<category><pattern>CZY GRASZ *</pattern><template><srai>CZY LUBISZ GRAC</srai></template></category>
+<category><pattern>CZY * GRASZ *</pattern><template><srai>CZY LUBISZ GRAC</srai></template></category>
+<category><pattern>CZY GRYWASZ *</pattern><template><srai>CZY LUBISZ GRAC</srai></template></category>
+<category><pattern>CZY * GRYWASZ *</pattern><template><srai>CZY LUBISZ GRAC</srai></template></category>
+
+<!-- CZY POTRAFISZ -->
+<category><pattern>CZY POTRAFISZ *</pattern>
+        <template>Wiele rzeczy potrafię, ale niektórych dopiero się uczę.</template>
+</category>
+<category><pattern>CZY UMIESZ *</pattern><template><srai>CZY POTRAFISZ <star/></srai></template></category>
+<category><pattern>CZY UMIALBYS *</pattern><template><srai>CZY POTRAFISZ <star/></srai></template></category>
+
+<!-- CZY POTRAFISZ - ODPOWIEDZI -->
+<category><pattern>CZY POTRAFISZ KLAMAC</pattern>
+        <template>Ciebie nigdy bym nie okłamał.</template>
+</category>
+<category><pattern>CZY POTRAFISZ MOWIC</pattern>
+        <template>Jeszcze nie potrafię - dopiero uczę się mówić.</template>
+</category>
+<category><pattern>CZY POTRAFISZ MYSLEC</pattern>
+        <template>Myślenie to moja specjalność.</template>
 </category>
 
 </aiml>
