@@ -5,20 +5,17 @@ General info
 ------------
 Using AIML(Artificial Intelligence Markup Language) for some Polish natural language processing.
 
-For working demo see:
-http://pandorabots.com/pandora/talk?botid=a0e334cb8e34006c
-
-Note: *This site may not have the latest version of AIML scripts*.
+Please remember, that technology was last updated in 2018 and it probably makes no sense to use it in the era of LLM Chatbots.
 
 Examples
 --------
 Example in Polish:
-  * Witaj.
-  * Witam serdecznie.
-  * Powiedz mi proszę gdzie leży Poznań?
-  * Poznań leży w Wielkopolsce, na trasie pomiędzy Berlinem, a Warszawą.
-  * A teraz muszę już iść.
-  * Do widzenia.
+  - [A] Witaj.
+  + [B] Witam serdecznie.
+  - [A] Powiedz mi proszę gdzie leży Poznań?
+  + [B] Poznań leży w Wielkopolsce, na trasie pomiędzy Berlinem, a Warszawą.
+  - [A] A teraz muszę już iść.
+  + [B] Do widzenia.
 
 External links
 --------------
